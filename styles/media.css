@@ -5,8 +5,23 @@
     
 }
 @media (max-width:768px) {
-    
+    .header{
+        padding-top: 20px;
+    }
+    .header__nav{
+        flex-direction: column;
+    }
+    .header__list{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .header-content{
+        height: 50vh;
+    }
 }
 @media (max-width:576px) {
-    
+    .header-content{
+        height: 35vh;
+    }
 }
