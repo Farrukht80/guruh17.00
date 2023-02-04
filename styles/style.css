@@ -32,8 +32,91 @@ button{
 
 /* Farrux */
 .news{
-
 }
+.section__name{
+    margin-top: 30px;
+    width: 208px;
+    margin: 30px auto 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.news{
+    font-family: var(--rob);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    color: #2E2E3C;
+    text-transform: uppercase;
+}
+.all{
+    font-family: var(--rob);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+    color: #fff;
+    background: #9A98EA;
+    border-radius: 4px;
+    padding: 7px 10px;
+    margin-left: 5px;
+}
+.news__block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.news__box{
+  width: 350px; 
+  padding: 15px;
+  background: #FFFFFF;
+  border: 1px solid #D7D6DC;
+  border-radius: 3px; 
+}
+.news__image{
+    width: 100%;
+    background: url(Nike-React-Infinity-Run-Heel--1920.jpg);
+    border-radius: 3px;
+}
+.news__title{
+    font-family: var(--rob);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin: 10px 0;
+}
+.news__text{
+    font-family: var(--rob);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px; 
+    text-align: justify;
+    color: #9B9B9B;
+    margin-bottom: 10px;
+}
+.news__button{
+    width: 100%;
+    color: #050505;
+    background: #FFE600;
+    border-radius: 3px;
+    padding: 11px ;
+    display: block;
+    font-family: var(--rob);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px; 
+    transition: .3s;
+}
+.news__button:hover{
+    color: #FFE600 ;
+    background: #050505;
+}
+
 
 /* Muhammadali */
 .product{
